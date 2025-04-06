@@ -45,14 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
           tipo: "video",
         },
       ],
-      atividades: [
-        {
-          nome: "Prática 1 ENTREGAR 02/04/2025",
-          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722",
-          tipo: "link",
-        }, {
-          nome: "Prática 2 ENTREGAR 02/04/2025",
-          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722",
+      atividades: [ {
+          nome: "Prática 2 ENTREGAR 09/04/2025",
+          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=4",
           tipo: "link",
         }
       ],
@@ -539,6 +534,30 @@ document.addEventListener("DOMContentLoaded", () => {
           nome: "Monitoria",
           link: "arquivos/gaal/Monitoria GAAL.pdf",
           tipo: "pdf",
+        }, {
+          nome: "Cap 1 seção 1.1: 1-9, 22-29",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
+        },
+        {
+          nome: "Cap 1 seção 1.2: 1-6, 8, 10, 12-14",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
+        },
+        {
+          nome: "Teste do capítulo 1 (pág 68)",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
+        },
+        {
+          nome: "Cap 2 seção 2.1: 1-6, 8, 10, 13, 15-16",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
+        },
+        {
+          nome: "Cap 2 seção 2.2: 1, 2, 5-9, 11-16, 18-19",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
         },
       ],
       avaliacoes: [
