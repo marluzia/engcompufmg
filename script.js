@@ -158,7 +158,9 @@ document.addEventListener("DOMContentLoaded", () => {
           tipo: `pdf`,
         },
       ],
-      avaliacoes: [],
+      avaliacoes: [{ nome: "26/04/2025" },
+        { nome: "31/05/2025" },
+        { nome: "21/06/2025" },],
     },
     { nome: "Equações Diferenciais A", codigo: "MAT015 OB60", periodo: 3 },
     {
