@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [ {
-          nome: "Prática 2 ENTREGAR 09/04/2025",
-          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=4",
+          nome: "Prática 3 ENTREGAR 16/04/2025",
+          link: "https://virtual.ufmg.br/20251/mod/vpl/view.php?id=122237",
           tipo: "link",
         }
       ],
@@ -153,8 +153,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       atividades: [
         {
-          nome: "Lista 1 ILC ENTREGAR 07/04/2025",
-          link: "arquivos/ilc/Lista1.1-A_LogicaProposicional[questoes].pdf",
+          nome: "Lista 1.1 B ILC ENTREGAR 14/04/2025",
+          link: "arquivos/ilc/Lista1.1-B_EquivalenciasProposicionais[questoes].pdf",
           tipo: `pdf`,
         },
       ],
@@ -600,7 +600,11 @@ document.addEventListener("DOMContentLoaded", () => {
           tipo: "link",
         },
       ],
-      atividades: [],
+      atividades: [{
+        nome: "RELATÓRIO PENDULO SIMPLES ENTREGAR 15/04/2025",
+        link: "https://virtual.ufmg.br/20251/mod/assign/view.php?id=125899",
+        tipo: `link`,
+      }],
       avaliacoes: [],
     },
     {
