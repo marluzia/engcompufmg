@@ -148,7 +148,11 @@ document.addEventListener("DOMContentLoaded", () => {
       codigo: "DCC638 OB60",
       periodo: 1,
       professores: [{ nome: "HANIEL BARBOSA", email: "hbarbosa@dcc.ufmg.br" }],
-      bibliografia: [],
+      bibliografia: [{
+        nome: "Discrete Mathematics and its Applications, Kenneth Rosen, McGraw-Hill Higher Education. 7th edition, 2011. ",
+        link: "https://elearn.daffodilvarsity.edu.bd/pluginfile.php/783865/mod_resource/intro/Discrete%20Mathematics%20and%20Its%20Applications%2C%207%20edition%20-%20Rosen.pdf",
+        tipo: "link",
+      }],
       materiais: [
         {
           nome: "Haniel GitHub",
