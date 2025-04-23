@@ -46,8 +46,18 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [ {
-          nome: "Prática 3 ENTREGAR 16/04/2025",
-          link: "https://virtual.ufmg.br/20251/mod/vpl/view.php?id=122237",
+          nome: "Prática 4 ENTREGAR 23/04/2025 23:59",
+          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=6",
+          tipo: "link",
+        },
+        {
+          nome: "Revisão Prova 1 ENTREGAR 24/04/2025 21:00",
+          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=7",
+          tipo: "link",
+        },
+        {
+          nome: "Quiz: Compilação, terminal e funções em C (SOMENTE PARA ESTUDAR) 26/04/2025",
+          link: "https://virtual.ufmg.br/20251/mod/quiz/view.php?id=134166",
           tipo: "link",
         }
       ],
@@ -153,10 +163,15 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       atividades: [
         {
-          nome: "Lista 1.1 B ILC ENTREGAR 14/04/2025",
-          link: "arquivos/ilc/Lista1.1-B_EquivalenciasProposicionais[questoes].pdf",
+          nome: "Lista 1.3 - Predicados e Quantificadores ENTREGAR 25/04/2025",
+          link: "arquivos/ilc/Lista1.3_PredicadosQuantificadores[questoes].pdf",
           tipo: `pdf`,
         },
+        {
+          nome: "Lista 1.4 - Regras Inferencia e Metodos Demonstração ENTREGAR 25/04/2025",
+          link: "arquivos/ilc/Lista1.4_Regras_Inferencia_Metodos_Demonstracao[questoes].pdf",
+          tipo: `pdf`,
+        }
       ],
       avaliacoes: [{ nome: "26/04/2025" },
         { nome: "31/05/2025" },
@@ -601,7 +616,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [{
-        nome: "RELATÓRIO PENDULO SIMPLES ENTREGAR 15/04/2025",
+        nome: "RELATÓRIO Deformação Elástica de uma Haste ENTREGAR 29/04/2025",
         link: "https://virtual.ufmg.br/20251/mod/assign/view.php?id=125899",
         tipo: `link`,
       }],
