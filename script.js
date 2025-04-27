@@ -45,19 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
           tipo: "video",
         },
       ],
-      atividades: [ {
-          nome: "Prática 4 ENTREGAR 23/04/2025 23:59",
-          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=6",
-          tipo: "link",
-        },
+      atividades: [ 
         {
-          nome: "Revisão Prova 1 ENTREGAR 24/04/2025 21:00",
-          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=7",
-          tipo: "link",
-        },
-        {
-          nome: "Quiz: Compilação, terminal e funções em C (SOMENTE PARA ESTUDAR) 26/04/2025",
-          link: "https://virtual.ufmg.br/20251/mod/quiz/view.php?id=134166",
+          nome: "Prática 5.6 - Fatorial 01/05/2025",
+          link: "https://virtual.ufmg.br/20251/mod/vpl/view.php?id=137638",
           tipo: "link",
         }
       ],
@@ -166,16 +157,6 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [
-        {
-          nome: "Lista 1.3 - Predicados e Quantificadores ENTREGAR 25/04/2025",
-          link: "arquivos/ilc/Lista1.3_PredicadosQuantificadores[questoes].pdf",
-          tipo: `pdf`,
-        },
-        {
-          nome: "Lista 1.4 - Regras Inferencia e Metodos Demonstração ENTREGAR 25/04/2025",
-          link: "arquivos/ilc/Lista1.4_Regras_Inferencia_Metodos_Demonstracao[questoes].pdf",
-          tipo: `pdf`,
-        }
       ],
       avaliacoes: [{ nome: "26/04/2025" },
         { nome: "31/05/2025" },
