@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       atividades: [ 
         {
-          nome: "Prática 5.6 - Fatorial 01/05/2025",
-          link: "https://virtual.ufmg.br/20251/mod/vpl/view.php?id=137638",
+          nome: "Prática 7 04/05/2025",
+          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722",
           tipo: "link",
         }
       ],
