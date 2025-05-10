@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       atividades: [ 
         {
-          nome: "Prática 6 11/05/2025",
+          nome: "Semana 8 Prática 6 14/05/2025",
           link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=9",
           tipo: "link",
         }
@@ -156,7 +156,11 @@ document.addEventListener("DOMContentLoaded", () => {
           tipo: "pdf",
         },
       ],
-      atividades: [
+      atividades: [{
+        nome: "Lista 1.5 - Métodos de demonstração 16/05/2025",
+        link: "arquivos/ilc/Lista1.5_Metodos_Demonstracao[questoes].pdf",
+        tipo: "pdf",
+      }
       ],
       avaliacoes: [{ nome: "26/04/2025" },
         { nome: "31/05/2025" },
@@ -601,8 +605,8 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [{
-        nome: "RELATÓRIO Deformação Elástica de uma Haste ENTREGAR 29/04/2025",
-        link: "https://virtual.ufmg.br/20251/mod/assign/view.php?id=125899",
+        nome: "RELATÓRIO Experimento 1. Constante Elástica de Molas ENTREGAR 13/05/2025",
+        link: "https://virtual.ufmg.br/20251/mod/assign/view.php?id=109262",
         tipo: `link`,
       }],
       avaliacoes: [],
