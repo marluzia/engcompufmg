@@ -44,6 +44,66 @@ document.addEventListener("DOMContentLoaded", () => {
           link: "https://www.youtube.com/playlist?list=PL_ClcqWHc8M-K0Q1AOpHCLzN_lKljdT1G",
           tipo: "video",
         },
+        {
+          nome: "aula_1_apresentacao_do_curso_2025",
+          link: "arquivos/pds1/aula_1_apresentacao_do_curso_2025.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_2_compilacao",
+          link: "arquivos/pds1/aula_2_compilacao.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_3_tipos_de_dados",
+          link: "arquivos/pds1/aula_3_tipos_de_dados.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_4_variaveis",
+          link: "arquivos/pds1/aula_4_variaveis.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_5_funcoes",
+          link: "arquivos/pds1/aula_5_funcoes.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_6_memoria",
+          link: "arquivos/pds1/aula_6_memoria.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_7_operacoes_bit_a_bit",
+          link: "arquivos/pds1/aula_7_operacoes_bit_a_bit.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_8_condicoes",
+          link: "arquivos/pds1/aula_8_condicoes.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_9_repeticao_do_while_for",
+          link: "arquivos/pds1/aula_9_repeticao_do_while_for.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_10_repeticao_break_for",
+          link: "arquivos/pds1/aula_10_repeticao_break_for.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_11_strings",
+          link: "arquivos/pds1/aula_11_strings.pptx.pdf",
+          tipo: "pdf",
+        },
+        {
+          nome: "aula_12_variaveis_indexadas",
+          link: "arquivos/pds1/aula_12_variaveis_indexadas.pptx.pdf",
+          tipo: "pdf",
+        },
       ],
       atividades: [ 
         {
