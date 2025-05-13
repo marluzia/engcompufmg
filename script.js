@@ -565,6 +565,26 @@ document.addEventListener("DOMContentLoaded", () => {
           link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
           tipo: "link",
         },
+        {
+          nome: "Cap 3 seção 3.1: 1-3, 6-13",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
+        },
+        {
+          nome: "Cap 3 seção 3.2: 1-8",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
+        },
+        {
+          nome: "Cap 3 seção 3.3: 1-8",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
+        },
+         {
+          nome: "Teste do capítulo 3 (pág 205)",
+          link: "https://www.dropbox.com/scl/fi/2okvtr6pwawnqvmofpf6o/gaalt0.pdf?rlkey=mo7wdzpko8t16n03j37wkvul2&e=1&dl=0",
+          tipo: "link",
+        },
       ],
       avaliacoes: [
         { nome: "15/04/2025" },
