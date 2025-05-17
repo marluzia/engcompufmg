@@ -107,8 +107,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       atividades: [ 
         {
-          nome: "Semana 8 Prática 6 14/05/2025",
-          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=9",
+          nome: "Semana 9 Prática 7 21/05/2025",
+          link: "https://virtual.ufmg.br/20251/course/view.php?id=11722&section=10",
           tipo: "link",
         }
       ],
@@ -685,8 +685,8 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [{
-        nome: "RELATÓRIO Experimento 1. Constante Elástica de Molas ENTREGAR 13/05/2025",
-        link: "https://virtual.ufmg.br/20251/mod/assign/view.php?id=109262",
+        nome: "RELATÓRIO Experimento 2. Oscilação de um Sistema Massa-Mola",
+        link: "https://virtual.ufmg.br/20251/mod/assign/view.php?id=109264",
         tipo: `link`,
       }],
       avaliacoes: [],
