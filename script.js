@@ -217,8 +217,8 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [{
-        nome: "Lista 1.5 - Métodos de demonstração 16/05/2025",
-        link: "arquivos/ilc/Lista1.5_Metodos_Demonstracao[questoes].pdf",
+        nome: "Lista 1.6 - Conjuntos uncoes Cardinalidade 21/05/2025",
+        link: "arquivos/ilc/Lista1.6_Conjuntos_Funcoes_Cardinalidade[questoes].pdf",
         tipo: "pdf",
       }
       ],
