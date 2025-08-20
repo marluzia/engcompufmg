@@ -142,22 +142,38 @@ document.addEventListener("DOMContentLoaded", () => {
       nome: "Matemática Discreta",
       codigo: "DCC216 OB60",
       periodo: 2,
-      professores: [{
+      professores: [
+        {
           nome: "Loic",
-          email: "lcerf@dcc.ufmg.br"
-        }],
-      bibliografia: [{
-          nome: "Matemática Discreta e suas aplicações - Rosen - 6a edição",
-          link: "arquivos/md/pdfcoffee.com_matematica-discreta-e-suas-aplicaoes-kenneth-h-rosen-6-ed-pt-pdf-free.pdf",
+          email: "lcerf@dcc.ufmg.br",
+        },
+      ],
+      bibliografia: [
+        {
+          nome: "Matemática Discreta e suas aplicações - Rosen - 7a edição (English) - pág 385",
+          link: "arquivos/md/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf",
           tipo: "pdf",
-        }],
-      materiais: [{
+        },
+      ],
+      materiais: [
+        {
           nome: "Cronograma",
           link: "arquivos/md/cronograma - TM2.pdf",
           tipo: "pdf",
-        }],
-      atividades: [],
-      avaliacoes: [],
+        },
+      ],
+      atividades: [
+        {
+          nome: "l1",
+          link: "arquivos/md/l1.pdf",
+          tipo: "pdf",
+        },
+      ],
+      avaliacoes: [
+        { nome: "20/07/2025 - Análise Combinatória e Probabilidade" },
+        { nome: "25/10/2025 - Complexidade e Combinatória Avançada" },
+        { nome: "29/11/2025 - Grafos e Relações" },
+      ],
     },
     { nome: "Estruturas de Dados", codigo: "DCC205 OB60", periodo: 3 },
     { nome: "Algoritmos I", codigo: "DCC206 OB60", periodo: 4 },
@@ -182,7 +198,21 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       nome: "Programação e Desenvolvimento de Software II",
       codigo: "DCC204 OB60",
-      periodo: 2, professores: [{nome: "Douglas", email: "douglas.macharet@dcc.ufmg.br"}, {nome: "Héctor", email: "hector@dcc.ufmg.br"}, {nome: "Luiz", email: "chaimo@dcc.ufmg.br"}], bibliografia: [{nome: "Absolute C++", link: "arquivos/pds2/absolutecpp.pdf", tipo: "pdf"}], materiais: [{
+      periodo: 2,
+      professores: [
+        { nome: "Douglas", email: "douglas.macharet@dcc.ufmg.br" },
+        { nome: "Héctor", email: "hector@dcc.ufmg.br" },
+        { nome: "Luiz", email: "chaimo@dcc.ufmg.br" },
+      ],
+      bibliografia: [
+        {
+          nome: "Absolute C++",
+          link: "arquivos/pds2/absolutecpp.pdf",
+          tipo: "pdf",
+        },
+      ],
+      materiais: [
+        {
           nome: "Cronograma",
           link: "arquivos/pds2/2025.2 - PDS2 - Cronograma Detalhado.pdf",
           tipo: "pdf",
@@ -191,7 +221,14 @@ document.addEventListener("DOMContentLoaded", () => {
           nome: "Plano de ensino",
           link: "arquivos/pds2/2025.2 - PDS2 - Plano ensino.pdf",
           tipo: "pdf",
-        }], atividades: [], avaliacoes: []
+        },
+      ],
+      atividades: [{nome: "Projeto.cpp", link: "arquivos/pds2/projeto-final.pdf", tipo: "pdf"}],
+      avaliacoes: [
+        { nome: "04/10/2025" },
+        { nome: "08/11/2025" },
+        { nome: "25/10/2025 a 27/10/2025" },
+      ],
     },
     { nome: "Álgebra Linear Computacional", codigo: "DCC639 OB60", periodo: 3 },
     { nome: "Introdução a Bancos de Dados", codigo: "DCC011 OB60", periodo: 4 },
@@ -583,7 +620,8 @@ document.addEventListener("DOMContentLoaded", () => {
           nome: "BOULOS, P. / OLIVEIRA, I. C. - Geometria Analítica (um tratamento vetorial) - McGraw-Hill - SP",
           link: "arquivos/calc 2/calculus-10th-edition-anton.pdf",
           tipo: "pdf",
-        }, {
+        },
+        {
           nome: "ÁVILA, G. S. S. - Cálculo, Volume 02 - LTC",
           link: "arquivos/calc 2/Calculo Volume 1 - Stewart_1_ptbr.pdf",
           tipo: "pdf",
@@ -592,21 +630,25 @@ document.addEventListener("DOMContentLoaded", () => {
           nome: "APOSTOL, T. M. - Cálculo. Ed. Reverté Ltda. Volume 1 e 2",
           link: "arquivos/calc 2/calculus-10th-edition-anton.pdf",
           tipo: "pdf",
-        }, {
+        },
+        {
           nome: "SWOKOWSKI, E. W. - Cálculo com Geometria Analítica - Ed. McGraw-Hill Ltda. - SP - Volume 2",
           link: "arquivos/calc 2/Calculo Volume 1 - Stewart_1_ptbr.pdf",
           tipo: "pdf",
-        }
+        },
       ],
-      materiais: [{
+      materiais: [
+        {
           nome: "PROGRAMA",
           link: "arquivos/calc 2/programa Mat 042 (1).pdf",
           tipo: "pdf",
-        }, {
+        },
+        {
           nome: "aula 1-1",
           link: "arquivos/calc 2/aula 1-1.pdf",
           tipo: "pdf",
-        }],
+        },
+      ],
       atividades: [],
       avaliacoes: [],
     },
@@ -648,11 +690,22 @@ document.addEventListener("DOMContentLoaded", () => {
           tipo: "link",
         },
       ],
-      atividades: [
-      ],
+      atividades: [],
       avaliacoes: [],
     },
-    { nome: "Fundamentos de Mecânica", codigo: "FIS065 OB60", periodo: 2, professores: [], bibliografia: [{nome: "Física Básica – Mecânica Alaor Chaves e Sampaio Editora LAB, 2007", link: "arquivos/fundmec/pdfcoffee.com_349403333-fisica-1-mecanica-alaor-chaves-pdfpdf-pdf-free.pdf", tipo: "pdf"}] },
+    {
+      nome: "Fundamentos de Mecânica",
+      codigo: "FIS065 OB60",
+      periodo: 2,
+      professores: [],
+      bibliografia: [
+        {
+          nome: "Física Básica – Mecânica Alaor Chaves e Sampaio Editora LAB, 2007",
+          link: "arquivos/fundmec/pdfcoffee.com_349403333-fisica-1-mecanica-alaor-chaves-pdfpdf-pdf-free.pdf",
+          tipo: "pdf",
+        },
+      ], materiais: [], atividades: [], avaliacoes: [{nome: "08/09/2025"},{nome: "13/10/2025"}, {nome: "24/11/2025"}]
+    },
     {
       nome: "Laboratório de Circuitos Elétricos I",
       codigo: "ELE028 OB30",
@@ -787,15 +840,23 @@ document.addEventListener("DOMContentLoaded", () => {
       nome: "Fundamentos de Eletromagnetismo",
       codigo: "FIS069 OB60",
       periodo: 2,
-      professores: [{nome: "TN2 MYRIANO", email: "myriano@fisica.ufmg.br"},], bibliografia: [{
+      professores: [{ nome: "TN2 MYRIANO", email: "myriano@fisica.ufmg.br" }],
+      bibliografia: [
+        {
           nome: "“Fundamentos de Física - Eletromagnetismo”, Halliday, Resnick Walker, 10ª edição",
           link: "arquivos/fundele/FIsica 3 Eletromagnetismo Halliday.pdf",
           tipo: "pdf",
-        }], materiais: [{
+        },
+      ],
+      materiais: [
+        {
           nome: "Lista 1",
           link: "arquivos/fundele/Lista_1.pdf",
           tipo: "pdf",
-        }], atividades: [], avaliacoes: [],
+        },
+      ],
+      atividades: [],
+      avaliacoes: [],
     },
     { nome: "Sistemas Digitais", codigo: "ELT124 OB60", periodo: 3 },
     {
