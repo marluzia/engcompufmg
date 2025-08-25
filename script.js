@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
       bibliografia: [
         {
           nome: "Matemática Discreta e suas aplicações - Rosen - 7a edição (English) - pág 385",
-          link: "arquivos/md/Matemática Discreta e Suas Aplicações - KENNETH H_ ROSEN; HELENA CASTRO; JOAO GUILHERME GIUDICE - 6th, 2009 - Mc Graw Hill - 9788577260362 - dc6e03f48f252e317b8cbd919a76f747 - Anna’s Archive-1_removed.pdf",
+          link: "arquivos/md/Matemática Discreta e Suas Aplicações - KENNETH H_ ROSEN; HELENA CASTRO; JOAO GUILHERME GIUDICE - 6th, 2009 - Mc Graw Hill - 9788577260362 - dc6e03f48f252e317b8cbd919a76f747 - Anna’s Archive-1_removed-1.pdf",
           tipo: "pdf",
         },
       ],
