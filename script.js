@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
       bibliografia: [
         {
           nome: "Matemática Discreta e suas aplicações - Rosen - 7a edição (English) - pág 385",
-          link: "arquivos/md/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf",
+          link: "arquivos/md/Matemática Discreta e Suas Aplicações - KENNETH H_ ROSEN; HELENA CASTRO; JOAO GUILHERME GIUDICE - 6th, 2009 - Mc Graw Hill - 9788577260362 - dc6e03f48f252e317b8cbd919a76f747 - Anna’s Archive-1_removed.pdf",
           tipo: "pdf",
         },
       ],
@@ -813,6 +813,23 @@ document.addEventListener("DOMContentLoaded", () => {
       nome: "Análise de Circuitos Elétricos I",
       codigo: "ELE064 OB30",
       periodo: 2,
+      professores: [{ nome: "TM Diógenes C. da Silva Jr.", email: "diogenes@ufmg.br" }],
+      bibliografia: [
+        {
+          nome: "“Fundamentos de Física - Eletromagnetismo”, Halliday, Resnick Walker, 10ª edição",
+          link: "arquivos/ace/Circuitos Eletricos 10Ed Nilsson Riedel.pdf",
+          tipo: "pdf",
+        },
+      ],
+      materiais: [
+        {
+          nome: "Lista 1",
+          link: "arquivos/fundele/Lista_1.pdf",
+          tipo: "pdf",
+        },
+      ],
+      atividades: [],
+      avaliacoes: [],
     },
     {
       nome: "Análise de Circuitos Elétricos II",
