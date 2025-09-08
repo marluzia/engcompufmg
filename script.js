@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       avaliacoes: [
-        { nome: "20/07/2025 - Análise Combinatória e Probabilidade" },
+        { nome: "20/09/2025 - Análise Combinatória e Probabilidade" },
         { nome: "25/10/2025 - Complexidade e Combinatória Avançada" },
         { nome: "29/11/2025 - Grafos e Relações" },
       ],
@@ -650,7 +650,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [],
-      avaliacoes: [],
+      avaliacoes: [{nome: "15/09/2025"},{nome: "20/10/2025"}, {nome: "24/11/2025"}],
     },
     {
       nome: "Fundamentos de Estatística e Ciência de Dados",
@@ -704,7 +704,7 @@ document.addEventListener("DOMContentLoaded", () => {
           link: "arquivos/fundmec/pdfcoffee.com_349403333-fisica-1-mecanica-alaor-chaves-pdfpdf-pdf-free.pdf",
           tipo: "pdf",
         },
-      ], materiais: [], atividades: [], avaliacoes: [{nome: "08/09/2025"},{nome: "13/10/2025"}, {nome: "24/11/2025"}]
+      ], materiais: [], atividades: [], avaliacoes: [{nome: "10/09/2025"},{nome: "13/10/2025"}, {nome: "24/11/2025"}]
     },
     {
       nome: "Laboratório de Circuitos Elétricos I",
@@ -742,6 +742,13 @@ document.addEventListener("DOMContentLoaded", () => {
       nome: "Fund. Interação Humano Computador",
       codigo: "DCCXXX OB30",
       periodo: 2,
+      professores: [
+        {
+          nome: "Lucas Ferreira",
+          email: "",
+        }
+      ],
+      avaliacoes: [{nome: "17/10/2025"},{nome: "05/12/2025"}],
     },
     {
       nome: "Análise de Sistemas Dinâmicos Lineares",
@@ -829,7 +836,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [],
-      avaliacoes: [],
+      avaliacoes: [{nome: "24/09/2025"},{nome: "29/10/2025"},{nome: "26/11/2025"}],
     },
     {
       nome: "Análise de Circuitos Elétricos II",
