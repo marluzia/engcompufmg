@@ -923,8 +923,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const materiaBox = document.createElement("div");
       materiaBox.className = "materia-box";
       materiaBox.textContent = `${materia.nome} (${materia.codigo})`;
-      if (parseInt(periodo) >= 3 && parseInt(periodo) <= 10) {
-        materiaBox.classList.add("periodo-3-10");
+      if (parseInt(periodo) >= 4 && parseInt(periodo) <= 10) {
+        materiaBox.classList.add("periodo-4-10");
       }
       materiaBox.addEventListener("click", () => {
         mostrarDetalhesMateria(materia);
@@ -937,7 +937,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function mostrarDetalhesMateria(materia) {
-    if (materia.periodo < 3) {
+    if (materia.periodo < 4) {
       const detalhes = `
                 <h3>${materia.nome} (${materia.codigo})</h3>
                 <p>🧑‍🏫Professor(es): ${formatarProfessores(
