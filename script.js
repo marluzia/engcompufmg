@@ -169,11 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
           tipo: "pdf",
         },
       ],
-      avaliacoes: [
-        { nome: "20/09/2025 - Análise Combinatória e Probabilidade" },
-        { nome: "25/10/2025 - Complexidade e Combinatória Avançada" },
-        { nome: "29/11/2025 - Grafos e Relações" },
-      ],
+      avaliacoes: [],
     },
     { nome: "Estruturas de Dados", codigo: "DCC205 OB60", periodo: 3 },
     { nome: "Algoritmos I", codigo: "DCC206 OB60", periodo: 4 },
@@ -223,12 +219,14 @@ document.addEventListener("DOMContentLoaded", () => {
           tipo: "pdf",
         },
       ],
-      atividades: [{nome: "Projeto.cpp", link: "arquivos/pds2/projeto-final.pdf", tipo: "pdf"}],
-      avaliacoes: [
-        { nome: "04/10/2025" },
-        { nome: "08/11/2025" },
-        { nome: "25/10/2025 a 27/10/2025" },
+      atividades: [
+        {
+          nome: "Projeto.cpp",
+          link: "arquivos/pds2/projeto-final.pdf",
+          tipo: "pdf",
+        },
       ],
+      avaliacoes: [],
     },
     { nome: "Álgebra Linear Computacional", codigo: "DCC639 OB60", periodo: 3 },
     { nome: "Introdução a Bancos de Dados", codigo: "DCC011 OB60", periodo: 4 },
@@ -650,7 +648,8 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [],
-      avaliacoes: [{nome: "15/09/2025"},{nome: "20/10/2025"}, {nome: "24/11/2025"}],
+      avaliacoes: [
+      ],
     },
     {
       nome: "Fundamentos de Estatística e Ciência de Dados",
@@ -704,7 +703,11 @@ document.addEventListener("DOMContentLoaded", () => {
           link: "arquivos/fundmec/pdfcoffee.com_349403333-fisica-1-mecanica-alaor-chaves-pdfpdf-pdf-free.pdf",
           tipo: "pdf",
         },
-      ], materiais: [], atividades: [], avaliacoes: [{nome: "10/09/2025"},{nome: "13/10/2025"}, {nome: "24/11/2025"}]
+      ],
+      materiais: [],
+      atividades: [],
+      avaliacoes: [
+      ],
     },
     {
       nome: "Laboratório de Circuitos Elétricos I",
@@ -746,9 +749,9 @@ document.addEventListener("DOMContentLoaded", () => {
         {
           nome: "Lucas Ferreira",
           email: "",
-        }
+        },
       ],
-      avaliacoes: [{nome: "17/10/2025"},{nome: "05/12/2025"}],
+      avaliacoes: [],
     },
     {
       nome: "Análise de Sistemas Dinâmicos Lineares",
@@ -820,7 +823,9 @@ document.addEventListener("DOMContentLoaded", () => {
       nome: "Análise de Circuitos Elétricos I",
       codigo: "ELE064 OB30",
       periodo: 2,
-      professores: [{ nome: "TM Diógenes C. da Silva Jr.", email: "diogenes@ufmg.br" }],
+      professores: [
+        { nome: "TM Diógenes C. da Silva Jr.", email: "diogenes@ufmg.br" },
+      ],
       bibliografia: [
         {
           nome: "“Fundamentos de Física - Eletromagnetismo”, Halliday, Resnick Walker, 10ª edição",
@@ -836,7 +841,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       atividades: [],
-      avaliacoes: [{nome: "24/09/2025"},{nome: "29/10/2025"},{nome: "26/11/2025"}],
+      avaliacoes: [],
     },
     {
       nome: "Análise de Circuitos Elétricos II",
